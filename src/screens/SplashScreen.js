@@ -4,7 +4,7 @@ import { View, Text, ActivityIndicator, StyleSheet } from "react-native";
 export default function SplashScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Mi App 🚀</Text>
+      <Text style={styles.title}>Mi App - Splash Screen</Text>
       <ActivityIndicator size="large" color="#000" />
     </View>
   );
